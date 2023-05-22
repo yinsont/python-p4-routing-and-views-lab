@@ -16,7 +16,7 @@ def print_string(text):
 @app.route('/count/<int:number>')
 def count(number):
     # for n in range(number):
-    #     return f'<h1>{number}</h1>'
+    #     return f'{n}\n'
     count = f''
     for n in range(number):
         count += f'{n}\n'
